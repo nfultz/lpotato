@@ -15,3 +15,8 @@ To run:
 python3 -m lpotato p_xgb.json e_xgb.json df.pkl <line.txt
 ```
 
+TODO:
+* Move training out of notebook into module.
+* Scale up hyperparameter search.
+* Model pruning.
+* Remove scikit-learn, use xgb directly.
